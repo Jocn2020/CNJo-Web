@@ -1,0 +1,116 @@
+.motion{
+    width: 30%;
+    height: 26vw;
+    margin: 20px;
+    display: flex;
+
+    .project{
+        width: 100%;
+        height: 100%;
+        margin: 20px 10px;
+        border: 2px solid#DCDCDC;
+        border-radius:  10px 10px 0px 0px;
+        overflow: hidden;
+    
+        .project-browser{
+            width: 100%;
+            height: 20px;
+            background-color:#DCDCDC;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            z-index: 2;
+    
+            .project-circle{
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                margin: 3px;
+                background-color: pink;
+            }
+        }
+    
+        .project-content{
+            display: flex;
+            width: 100%;
+            height: calc(100% - 20px);
+            overflow: hidden;
+            background-color: rgba(197, 189, 189, 0.8);
+            flex-direction: column;
+
+            a{
+                height: 100%;
+
+                .project-img{
+                    opacity: 0;
+    
+                    &.active{
+                        transition: opacity ease-in 1s;
+                        width: 100%;
+                        height: 85%;
+                        object-fit: cover;
+                        opacity: 1;
+                    }
+                }
+                
+                .project-detail{
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    display: flex;
+                    padding-left: 10px;
+    
+                    .project-name{
+                        width: 30%;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+    
+                    .project-tools{
+                        width: 70%;
+                        display: flex;
+                        justify-content: end;
+                        padding-right: 5px;
+                        
+                        img{
+                            display: flex;
+                            width: 14%;
+                            padding-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .motion{
+        width: 45%;
+        height: 38vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .motion{
+        width: 80%;
+        height: 62vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .motion{
+        margin: 10px;
+        width: 100%;
+        height: 62vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .motion{
+        width: 100%;
+        height: 90vw;
+    }
+}
+

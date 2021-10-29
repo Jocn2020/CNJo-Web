@@ -1,0 +1,102 @@
+.project {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: lightgray;
+    border: darkgray solid 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .project-image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+            transition: .5s;
+        }
+    }
+
+    .project-content {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 70%;/*100%*/
+        height: 100%;
+        background: #ffc107;
+        transition: .5s;
+        transform-origin: left;
+        transform: perspective(2000px) rotateY(-90deg);
+        
+
+        .project-wrapper{
+            text-align: center;
+            background: #fff;
+            overflow: hidden;
+
+            h1{
+                margin: 0;
+                padding-top: 15px;
+                color: #ff3636;
+                line-height: 50%;
+                font-size: 25px;
+
+                span{
+                    font-size: 14px;
+                    color: #262626;
+                }
+            }
+
+            p{
+                margin: 10px 0;
+                padding: 0;
+                color: #262626;
+            }
+
+            ul{
+                height: 30%;
+                margin: 10px auto 0;
+                padding: 0;
+                display: table;
+
+                li{
+                    list-style: none;
+                    margin: 0 5px;
+                    float: left;
+
+                    a{
+                        display: block;
+                        background: #262626;
+                        color: #fff;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        transform: .5s;
+
+                        :hover{
+                            background: #ff3636;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &:hover{
+        .project-image img{
+            opacity: 0.5;
+            transform: translateX(30%);/*100%*/
+        }
+
+        .project-content{
+            transform: perspective(2000px) rotateY(0deg);
+        }
+    }
+}

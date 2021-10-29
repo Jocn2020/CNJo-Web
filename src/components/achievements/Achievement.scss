@@ -1,0 +1,114 @@
+.achievement{
+    width: 100%;
+    background-color: rgba(20, 246, 255, 0.5);
+    border: rgba(41, 69, 249, 0.5) solid 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    .achievement-content{
+        display: flex;
+        flex-wrap: wrap;
+
+        .achievement-top{
+            width: 100%;
+            padding: 20px;
+            position: relative;
+            display: flex;
+
+            .achievement-left{
+                display: flex;
+                flex: 3;
+                font-size: 40px;
+                font-weight: bold;
+                font-family: 'Trocchi', serif;
+
+                &.gold{
+                    color: gold;
+                    
+                }
+
+                &.silver{
+                    color: rgb(161, 153, 153);
+                    opacity: 10;
+                }
+
+                &.bronze{
+                    color: #b08d57;
+                }
+
+                &.award{
+                    color: blue;
+                }
+            }
+
+            .achievement-right{
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+
+                .achievement-content{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: darkslateblue;
+                    justify-content: end;
+                    text-align: right;
+                    
+                    .achievement-icon{
+                        padding-right: 10px;
+                        position: relative;
+                        color: purple;
+                        vertical-align: middle;
+                    }
+
+                }
+            } 
+        }
+
+        .achievement-info{
+            width: 100%;
+            padding: 20px;
+            justify-content: start;
+
+            .achievement-item{
+                font-size: 20px;
+                font-weight: 500;
+                color: darkorchid;
+                flex-wrap: wrap;
+                position: relative;
+                text-align: left;
+
+                i{
+                    padding-right: 10px;
+                    color: purple;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .achievement .achievement-content{
+        .achievement-top{
+            padding: 10px;
+            flex-direction: column;
+            .achievement-left{
+                align-items: center;
+                font-size: 30px;
+            }
+            .achievement-right{
+                margin-top: 10px;
+                .achievement-content{
+                    justify-content: start;
+                    flex-direction: row;
+                }
+            }
+        }
+    }
+    
+}

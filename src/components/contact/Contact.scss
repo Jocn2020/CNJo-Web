@@ -1,0 +1,82 @@
+.contact{
+    height: 20vh;
+    position: relative;
+
+    .contact-wrapper{
+        width: 100%;
+        height: 100%;
+        background-color:rgba(0, 0, 0, 0.3);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        
+        .contact-title{
+            font-size: 35px;
+            font-weight: bold;
+            margin: 5px auto;
+        }
+
+        .contact-info{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .contact-item{
+                position: relative;
+                align-items: center;
+                border-radius: 30px;
+                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                padding: 10px;
+                color: white;
+
+                :hover{
+                    color: yellow;
+                }
+
+                &.github{
+                    background-color: #040204;   
+                }
+
+                &.mail{
+                    background-color:#C20806;
+                }
+
+                &.ig{
+                    background-color: #e33f5f;
+                    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+                }
+
+                &.linkedin{
+                    background-color:#04669A;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+
+        .contact-wrapper{
+
+            .contact-title{
+                display: none;
+            }
+
+            .contact-item{
+                .contact-type{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
