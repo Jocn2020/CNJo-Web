@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/CNJo-Web/static/css/main.41f094ae.chunk.css",
+    "main.js": "/CNJo-Web/static/js/main.16efbc30.chunk.js",
+    "main.js.map": "/CNJo-Web/static/js/main.16efbc30.chunk.js.map",
+    "runtime-main.js": "/CNJo-Web/static/js/runtime-main.bd3f2d29.js",
+    "runtime-main.js.map": "/CNJo-Web/static/js/runtime-main.bd3f2d29.js.map",
+    "static/js/2.a51e8931.chunk.js": "/CNJo-Web/static/js/2.a51e8931.chunk.js",
+    "static/js/2.a51e8931.chunk.js.map": "/CNJo-Web/static/js/2.a51e8931.chunk.js.map",
+    "index.html": "/CNJo-Web/index.html",
+    "static/css/main.41f094ae.chunk.css.map": "/CNJo-Web/static/css/main.41f094ae.chunk.css.map",
+    "static/js/2.a51e8931.chunk.js.LICENSE.txt": "/CNJo-Web/static/js/2.a51e8931.chunk.js.LICENSE.txt",
+    "static/media/blowitup-1.dc473627.png": "/CNJo-Web/static/media/blowitup-1.dc473627.png",
+    "static/media/blowitup-2.7e3c328b.png": "/CNJo-Web/static/media/blowitup-2.7e3c328b.png",
+    "static/media/blowitup-3.ac2107ba.png": "/CNJo-Web/static/media/blowitup-3.ac2107ba.png",
+    "static/media/blowitup-4.1a338d09.png": "/CNJo-Web/static/media/blowitup-4.1a338d09.png",
+    "static/media/gcal-1.e26c9515.png": "/CNJo-Web/static/media/gcal-1.e26c9515.png",
+    "static/media/gcal-2.c0b3d4fe.png": "/CNJo-Web/static/media/gcal-2.c0b3d4fe.png",
+    "static/media/mode.scss": "/CNJo-Web/static/media/nightBg.b4ea80df.jpeg",
+    "static/media/moon.51488daa.png": "/CNJo-Web/static/media/moon.51488daa.png",
+    "static/media/sparkle-star.1934a1d3.gif": "/CNJo-Web/static/media/sparkle-star.1934a1d3.gif",
+    "static/media/sun.d556e2de.png": "/CNJo-Web/static/media/sun.d556e2de.png",
+    "static/media/trophy-png-25059.f36611ee.png": "/CNJo-Web/static/media/trophy-png-25059.f36611ee.png",
+    "static/media/waterloo.4c8baa43.png": "/CNJo-Web/static/media/waterloo.4c8baa43.png",
+    "static/media/wewatch-1.f7b0b6a8.png": "/CNJo-Web/static/media/wewatch-1.f7b0b6a8.png",
+    "static/media/wewatch-2.1cabf593.png": "/CNJo-Web/static/media/wewatch-2.1cabf593.png",
+    "static/media/wewatch-3.0e5c6a56.png": "/CNJo-Web/static/media/wewatch-3.0e5c6a56.png",
+    "static/media/wewatch-4.242f3916.png": "/CNJo-Web/static/media/wewatch-4.242f3916.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd3f2d29.js",
+    "static/js/2.a51e8931.chunk.js",
+    "static/css/main.41f094ae.chunk.css",
+    "static/js/main.16efbc30.chunk.js"
+  ]
+}
