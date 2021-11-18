@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./Achievements.scss"
 import trophy from "../../img/trophy-png-25059.png"
-import { AiOutlineDoubleLeft, AiOutlineDoubleRight} from 'react-icons/ai';
+import { AiOutlineDoubleLeft, AiOutlineDoubleRight} from 'react-icons/ai'
 import Achievement from "./Achievement"
 import { achievements } from "./achievementList"
 
@@ -21,7 +21,7 @@ const Achievements = () => {
         return null;
     }
     return (
-        <div className="achievements">
+        <div className="achievements" id="achievements">
             <div className="achievements-title">
                <img src={trophy} alt="" className="title-icon"/>
                <div className="achievement-text">Achievements</div>  

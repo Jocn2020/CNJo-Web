@@ -2,7 +2,7 @@ import "./Contact.scss"
 
 export const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="contact-wrapper">
                 <h1 className="contact-title">Contact Information</h1>
                 <div className="contact-info">

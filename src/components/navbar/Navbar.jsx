@@ -1,18 +1,22 @@
 import { useState } from 'react'
 import Toogle from '../toogle/Toogle';
+import { Link } from 'react-router-dom';
 import './Navbar.scss'
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
-    const closeNavbarMenu = () => setClick(false);
+    const closeNavbarMenu = () => {
+        setClick(false);
+        
+    }
 
     return (
         <nav className='navbar'>
             <div className='navbar-main'>
                 <div className='navbar-logo'>
-                <a href='/' >CNJo</a>
+                <a href='#intro' >CNJo</a>
                 </div>
                 <Toogle/>
             </div>
@@ -22,22 +26,22 @@ const Navbar = () => {
             </div>
             <ul className={ click ? 'navbar-menu active' : 'navbar-menu'}>
                 <li className='navbar-item'>
-                    <a href="/" className='navbar-links' onClick={closeNavbarMenu}>
+                    <a href="#intro" className='navbar-links' onClick={closeNavbarMenu}>
                         Home
                     </a>
                 </li>
                 <li className='navbar-item'>
-                    <a href="/projects" className='navbar-links' onClick={closeNavbarMenu}>
+                    <a href="#projects" className='navbar-links' onClick={closeNavbarMenu}>
                         Projects
                     </a>
                 </li>
                 <li className='navbar-item'>
-                    <a href="/achievements" className='navbar-links' onClick={closeNavbarMenu}>
+                    <a href="#achievements" className='navbar-links' onClick={closeNavbarMenu}>
                         Achievements
                     </a>
                 </li>
                 <li className='navbar-item'>
-                    <a href="/contacts" className='navbar-links' onClick={closeNavbarMenu}>
+                    <a href="#contact" className='navbar-links' onClick={closeNavbarMenu}>
                         Contact
                     </a>
                 </li>

@@ -4,7 +4,7 @@ import {projects} from "./projects"
 
 const ProjectList = () => {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <div className="projects-texts">
                 <h1 className="projects-title">Project List</h1>
                 <p className="projects-desc">
