@@ -5,7 +5,7 @@ import waterloo from "../../img/waterloo.png"
 
 const Intro = () => {
     return (
-        <div className="intro">
+        <div className="intro" id="intro">
             <div className="intro-left">
                 <div className="left-wrapper">
                     <h2 className="intro-text">Hello World!, This is</h2>
