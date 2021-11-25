@@ -10,6 +10,12 @@ import wewatch4 from "../../img/wewatch/wewatch-4.png"
 
 import gcal1 from "../../img/daily-gcal/gcal-1.png"
 import gcal2 from "../../img/daily-gcal/gcal-2.png"
+
+import salaryest1 from "../../img/Salary-Est/salary-est-1.png"
+import salaryest2 from "../../img/Salary-Est/salary-est-2.png"
+import salaryest3 from "../../img/Salary-Est/salary-est-3.png"
+import salaryest4 from "../../img/Salary-Est/salary-est-4.png"
+
 export const projects = [
     {
         id: 1,
@@ -37,5 +43,14 @@ export const projects = [
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt=""/>,
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt=""/>,
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt=""/>]
+    }, {
+        id: 4,
+        name: "Salary Est.",
+        images: [salaryest1, salaryest2, salaryest3, salaryest4],
+        link: "https://github.com/Jocn2020/SWE-DS-Salary-Estimator",
+        tools: [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />,
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />,
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt=""/>,
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" />]
     }
 ]
