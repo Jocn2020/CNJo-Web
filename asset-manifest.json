@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3ce38ca5.chunk.css",
-    "main.js": "/static/js/main.35419212.chunk.js",
-    "main.js.map": "/static/js/main.35419212.chunk.js.map",
+    "main.js": "/static/js/main.9b27d012.chunk.js",
+    "main.js.map": "/static/js/main.9b27d012.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2a3ab3b.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2a3ab3b.js.map",
     "static/js/2.1ebae916.chunk.js": "/static/js/2.1ebae916.chunk.js",
@@ -18,6 +18,10 @@
     "static/media/gcal-2.c0b3d4fe.png": "/static/media/gcal-2.c0b3d4fe.png",
     "static/media/mode.scss": "/static/media/nightBg.b4ea80df.jpeg",
     "static/media/moon.51488daa.png": "/static/media/moon.51488daa.png",
+    "static/media/salary-est-1.b49a064f.png": "/static/media/salary-est-1.b49a064f.png",
+    "static/media/salary-est-2.c50e70d5.png": "/static/media/salary-est-2.c50e70d5.png",
+    "static/media/salary-est-3.810bab52.png": "/static/media/salary-est-3.810bab52.png",
+    "static/media/salary-est-4.1b878693.png": "/static/media/salary-est-4.1b878693.png",
     "static/media/sparkle-star.1934a1d3.gif": "/static/media/sparkle-star.1934a1d3.gif",
     "static/media/sun.d556e2de.png": "/static/media/sun.d556e2de.png",
     "static/media/trophy-png-25059.f36611ee.png": "/static/media/trophy-png-25059.f36611ee.png",
@@ -31,6 +35,6 @@
     "static/js/runtime-main.d2a3ab3b.js",
     "static/js/2.1ebae916.chunk.js",
     "static/css/main.3ce38ca5.chunk.css",
-    "static/js/main.35419212.chunk.js"
+    "static/js/main.9b27d012.chunk.js"
   ]
 }
